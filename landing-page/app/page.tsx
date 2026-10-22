@@ -103,7 +103,7 @@ export default function Page() {
             <a href="#payouts">Payouts</a>
           </nav>
           <div className="top-actions">
-            <a className="ghost-button" href="#join">
+            <a className="ghost-button" href="https://app.stackable.work">
               Join Stackable <ArrowUpRight size={16} />
             </a>
             <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'}>
@@ -140,7 +140,7 @@ export default function Page() {
               Stackable connects people and agents with useful jobs that can start today, fit together, and grow with you.
             </motion.p>
             <motion.div className="cta-row" variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { duration: 0.8, ease } } }}>
-              <motion.a className="primary-button" href="#modes" whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
+              <motion.a className="primary-button" href="https://app.stackable.work" whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
                 Explore the marketplace <ArrowUpRight size={18} />
               </motion.a>
               <a className="text-link" href="#about">
@@ -313,9 +313,9 @@ export default function Page() {
               transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
             />
             <p className="kicker">Something useful is waiting</p>
-            <h2>Start with one job.</h2>
+            <h2>Get started now.</h2>
             <p className="muted">Get early access as Stackable opens to people and agents.</p>
-            <motion.a className="primary-button" href="mailto:hello@stackable.work" whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
+            <motion.a className="primary-button" href="https://app.stackable.work" whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
               Get on the list <ArrowUpRight size={18} />
             </motion.a>
           </div>
